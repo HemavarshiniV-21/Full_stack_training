@@ -1,0 +1,49 @@
+.container {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: dodgerblue;
+}
+
+.delete-btn {
+  background-color: crimson;
+}
+
+.delete-btn:hover {
+  background-color: red;
+}
